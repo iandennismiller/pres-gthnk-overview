@@ -1,5 +1,5 @@
 ---
-title: 2017-fall-gthnk-overview
+title: Gthnk Overview
 author: "Ian Dennis Miller"
 date: "Today"
 output:
@@ -33,7 +33,7 @@ output:
 - Issue Tracker on GitHub
 - Python Project on PyPi
 - Blog at www.gthnk.com/blog
-- Chat on Matrix
+- Chat Room on Matrix
 
 ## Journal {.side-image}
 
@@ -46,6 +46,40 @@ output:
 - Daily Diary
 - others?
 
+## Archival {.side-image}
+
+![picture of chess pieces](assets/strategy.jpg)
+
+- how much has Word .doc changed in 20 years?
+- is there a future in digital formats?
+- Gthnk's simple text file format can be printed
+- printed hardcopy can be scanned and OCRed
+- scanned result recreates original Gthnk database
+- 100-year record with archival ink and paper
+
+## What *is* Gthnk? {.side-image}
+
+![picture of chess pieces](assets/strategy.jpg)
+
+- Gthnk is a database
+- always running on your computer
+- type your notes into a text file ("journal")
+- supports markdown, so links and formatting work
+- notes imported into database at midnight
+- web browser to search and view notes
+- use whatever editor and browser you want
+
+## Related Software {.side-image}
+
+![picture of chess pieces](assets/strategy.jpg)
+
+- Microsoft OneNote
+- Evernote
+- Emacs Org-mode
+- Yojimbo
+- DevonThink
+- Google/Apple Notes
+
 ## Chronology {.side-image}
 
 ![picture of chess pieces](assets/strategy.jpg)
@@ -54,10 +88,55 @@ output:
 - entries are organized by day
 - further organized by hour and minute
 - (seconds are not really regarded)
+- gthnk uses this chronology to organize your notes
 
-## Slide 1 {.side-image}
+## Handwritten Notes {.side-image}
 
 ![picture of chess pieces](assets/strategy.jpg)
+
+- not all notes are suited to text files
+- visual: drawings, schematics, diagrams, charts, graphs
+- spontaneous: meetings, lectures, live events
+- flexible: collaborative, multi-colors, outdoors
+- Gthnk's solution: attach to Chronology
+- learn the standardized handwritten page heading
+- scan pages as PDF, drag-drop onto Gthnk
+
+## Mobile Notes {.side-image}
+
+![picture of chess pieces](assets/strategy.jpg)
+
+- mobile is so convenient; always with you
+- is the cloud secure? are your notes private?
+- Gthnk is an offline database that runs on your computer
+- Supports mobile text files via cloud drives
+    - dropbox
+    - google drive
+    - etc...
+- Gthnk's cloud compromise: global write, local read
+
+## Attachments {.side-image}
+
+![picture of chess pieces](assets/strategy.jpg)
+
+- Attach digital media to a Day in Gthnk
+    + PDFs, including handwritten notes
+    + images: JPEGs, GIFs, PNGs, etc.
+- drag-drop media onto drop target
+- pages can be re-ordered after importing
+- Attachments are stored in database
+
+## Introducing Gthnk {.side-image}
+
+![picture of chess pieces](assets/strategy.jpg)
+
+- a personal **Journal**
+- supports long-term **Archival**
+- technically, it's a **Database**
+- a **Chronology** of your notes
+- including **Handwritten Notes**
+- and **Mobile Notes**
+- and image **Attachments**, generally
 
 # Installation on Windows and OS X
 
@@ -65,6 +144,53 @@ output:
 
 # Integration with apps and OS
 
+# Interlude
+
+## Scholarship in 2075 {.side-image}
+
+![picture of chess pieces](assets/strategy.jpg)
+
+- visualize a library in a not-so-distant future
+- you are the academic of the future
+- who were the people living in 2017?
+- imagine the following grim scenario
+- what if 98% of the data created between 1990 and 2030 is gone?
+    + data death
+        * irregular funding
+        * accidents
+        * Library of Alexandria events?
+    + bit rot and entropy
+    + link rot and disorganization
+- what if 98% of the websites you see today didn't exist in 2075?
+- what kind of culture are we creating?
+
+## Percy Shelley's Ozymandias {.side-image}
+
+![picture of chess pieces](assets/strategy.jpg)
+
+- I met a traveller from an antique land
+- Who said: Two vast and trunkless legs of stone
+- Stand in the desert
+- ...
+- And on the pedestal these words appear:
+- 'My name is Ozymandias, king of kings:
+- Look on my works, ye Mighty, and despair!'
+- Nothing beside remains. Round the decay
+- Of that colossal wreck, boundless and bare
+- The lone and level sands stretch far away.
+
 # Conclusion
+
+## Gthnk {.side-image}
+
+![picture of chess pieces](assets/strategy.jpg)
+
+- a personal **Journal**
+- supports long-term **Archival**
+- technically, it's a **Database**
+- a **Chronology** of your notes
+- including **Handwritten Notes**
+- and **Mobile Notes**
+- and image **Attachments**, generally
 
 ## Thank you
