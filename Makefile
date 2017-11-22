@@ -3,6 +3,9 @@
 
 PROJECT=2017-fall-gthnk-overview
 
+all: presentation tidy
+	@echo done
+
 presentation:
 	cd presentation && Rscript -e "library(rmarkdown); rmarkdown::render('$(PROJECT).Rmd')"
 	cp presentation/$(PROJECT).html docs/index.html
