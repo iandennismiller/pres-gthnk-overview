@@ -1,0 +1,70 @@
+---
+title: 2017-fall-gthnk-overview
+author: "Ian Dennis Miller"
+date: "Today"
+output:
+    ioslides_presentation:
+        autosize: yes
+        widescreen: true
+        css: assets/styles.css
+        self_contained: false
+---
+
+## Overview {.side-image}
+
+![picture of chess pieces](assets/strategy.jpg)
+
+- Overview
+- Introduction to Gthnk
+- Installation on Windows and OS X
+- Typical Use as a "Work Journal"
+- Integration with apps and OS
+- Conclusion
+
+# Introduction to Gthnk
+
+## Resources {.side-image}
+
+![picture of chess pieces](assets/strategy.jpg)
+
+- Website at www.gthnk.com
+- Documentation at docs.gthnk.com
+- Open Source Project on GitHub
+- Issue Tracker on GitHub
+- Python Project on PyPi
+- Blog at www.gthnk.com/blog
+- Chat on Matrix
+
+## Journal {.side-image}
+
+![picture of chess pieces](assets/strategy.jpg)
+
+- Logbook
+- Lab Notebook
+- Work Journal
+- Quote book
+- Daily Diary
+- others?
+
+## Chronology {.side-image}
+
+![picture of chess pieces](assets/strategy.jpg)
+
+- time: a line that goes "forward"
+- entries are organized by day
+- further organized by hour and minute
+- (seconds are not really regarded)
+
+## Slide 1 {.side-image}
+
+![picture of chess pieces](assets/strategy.jpg)
+
+# Installation on Windows and OS X
+
+# Typical Use
+
+# Integration with apps and OS
+
+# Conclusion
+
+## Thank you
