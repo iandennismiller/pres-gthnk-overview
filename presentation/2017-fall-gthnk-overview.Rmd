@@ -1,7 +1,7 @@
 ---
 title: Gthnk Overview
 author: "Ian Dennis Miller"
-date: "Today"
+date: "November 22, 2017"
 output:
     ioslides_presentation:
         autosize: yes
@@ -19,6 +19,7 @@ output:
 - Installation on Windows and OS X
 - Typical Use as a "Work Journal"
 - Integration with apps and OS
+- Interlude
 - Conclusion
 
 # Introduction to Gthnk
@@ -138,7 +139,25 @@ output:
 - and **Mobile Notes**
 - and image **Attachments**, generally
 
-# Installation on Windows and OS X
+# Installation
+
+## Operating Systems
+
+- compatible with Windows 10 and OS X
+
+## Python {.side-image}
+
+![picture of chess pieces](assets/strategy.jpg)
+
+- Gthnk "runs on" Python
+    + just like java runs applets
+    + or flash, dot-net, silverlight, whatever
+    + python runs Gthnk
+- Gthnk uses the Python installer
+- no programming is involved
+- if you happen to know Python
+    + open source
+    + participate
 
 # Typical Use
 
@@ -158,11 +177,11 @@ output:
     + data death
         * irregular funding
         * accidents
-        * Library of Alexandria events?
+        * Library of Alexandria event?
     + bit rot and entropy
     + link rot and disorganization
 - what if 98% of the websites you see today didn't exist in 2075?
-- what kind of culture are we creating?
+- will your Word97 macros still work!?
 
 ## Percy Shelley's Ozymandias {.side-image}
 
@@ -179,6 +198,37 @@ output:
 - Of that colossal wreck, boundless and bare
 - The lone and level sands stretch far away.
 
+## Who are we? {.side-image}
+
+![picture of chess pieces](assets/strategy.jpg)
+
+- What kind of culture are we creating?
+- Is our culture lasting?
+- Which parts will rot away and which parts will stay?
+- we can already see our culture disappearing
+    + Does anybody remember Geocities?
+    + Did anybody spend time on their Myspace profile?
+    + the BBC lost years-worth of early Dr. Who
+- How can we be active participants in our own history?
+
+## Nachlass {.side-image}
+
+![picture of chess pieces](assets/strategy.jpg)
+
+- from wikipedia:
+    + from German, used in academia
+    + nach: after
+    + lassen: to leave
+- papers left behind when a scholar dies
+    + manuscripts
+    + notes
+    + correspondence
+- it requires a great deal of effort to process a scholar's *Nachlass*
+- effort = resources = money
+    + which makes this unlikely
+- **unless you do it yourself**
+    + but don't forget Ozymandias
+
 # Conclusion
 
 ## Gthnk {.side-image}
@@ -194,3 +244,10 @@ output:
 - and image **Attachments**, generally
 
 ## Thank you
+
+- gthnk
+    + www.gthnk.com
+- Ian Dennis Miller
+    + imiller.utsc.utoronto.ca
+    + www.iandennismiller.com
+    + @iandennismiller
