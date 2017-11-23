@@ -24,18 +24,6 @@ output:
 
 # Introduction to Gthnk
 
-## Resources {.side-image}
-
-![picture of chess pieces](assets/strategy.jpg)
-
-- Website at www.gthnk.com
-- Documentation at docs.gthnk.com
-- Open Source Project on GitHub
-- Issue Tracker on GitHub
-- Python Project on PyPi
-- Blog at www.gthnk.com/blog
-- Chat Room on Matrix
-
 ## Journal {.side-image}
 
 ![picture of chess pieces](assets/strategy.jpg)
@@ -47,16 +35,15 @@ output:
 - Daily Diary
 - others?
 
-## Archival {.side-image}
+## Chronology {.side-image}
 
 ![picture of chess pieces](assets/strategy.jpg)
 
-- how much has Word .doc changed in 20 years?
-- is there a future in digital formats?
-- Gthnk's simple text file format can be printed
-- printed hardcopy can be scanned and OCRed
-- scanned result recreates original Gthnk database
-- 100-year record with archival ink and paper
+- time: a line that goes "forward"
+- entries are organized by day
+- gthnk uses this chronology to organize your notes
+    - further organized by hour and minute
+    - (seconds are not really regarded)
 
 ## What *is* Gthnk? {.side-image}
 
@@ -81,15 +68,16 @@ output:
 - DevonThink
 - Google/Apple Notes
 
-## Chronology {.side-image}
+## Archival {.side-image}
 
 ![picture of chess pieces](assets/strategy.jpg)
 
-- time: a line that goes "forward"
-- entries are organized by day
-- further organized by hour and minute
-- (seconds are not really regarded)
-- gthnk uses this chronology to organize your notes
+- how much has Word .doc changed in 20 years?
+- is there a future in digital formats?
+- Gthnk's simple text file format can be printed
+- printed hardcopy can be scanned and OCRed
+- scanned result recreates original Gthnk database
+- imagine a 100-year record with archival ink and paper
 
 ## Handwritten Notes {.side-image}
 
@@ -141,10 +129,6 @@ output:
 
 # Installation
 
-## Operating Systems
-
-- compatible with Windows 10 and OS X
-
 ## Python {.side-image}
 
 ![picture of chess pieces](assets/strategy.jpg)
@@ -152,18 +136,126 @@ output:
 - Gthnk "runs on" Python
     + just like java runs applets
     + or flash, dot-net, silverlight, whatever
-    + python runs Gthnk
 - Gthnk uses the Python installer
 - no programming is involved
 - if you happen to know Python
     + open source
     + participate
 
+## Windows Installation Part 1/2 {.side-image}
+
+![picture of chess pieces](assets/strategy.jpg)
+
+- Goal: prepare Python
+- Install Python
+    + www.python.org/ downloads/windows
+- launch PowerShell
+- `start-process powershell –verb runAs`
+- `pip install virtualenv virtualenvwrapper virtualenvwrapper-win`
+- Now Python is ready
+
+## Windows Installation Part 2/2 {.side-image}
+
+![picture of chess pieces](assets/strategy.jpg)
+
+- Goal: Install Gthnk
+- launch `cmd.exe`
+- `mkvirtualenv gthnk`
+- `easy_install -U mr.bob==0.1.2`
+- `pip install gthnk`
+- `python %virtual_env%\ Scripts\integration.py install`
+- `gthnk`
+- Now Gthnk is ready
+
+## OS X Installation Part 1/2 {.side-image}
+
+![picture of chess pieces](assets/strategy.jpg)
+
+- Goal: prepare Python
+- launch `terminal.app`
+- become admin (e.g. `su admin`)
+- `brew install python --universal --framework`
+- `brew install pyenv-virtualenv`
+- `brew install pyenv-virtualenvwrapper`
+- `brew install sqlite`
+- `pip install --upgrade pip`
+- Now Python is ready
+
+## OS X Installation Part 2/2 {.side-image}
+
+![picture of chess pieces](assets/strategy.jpg)
+
+- Goal: Install Gthnk
+- launch `terminal.app`
+- `mkvirtualenv gthnk`
+- `pip install gthnk`
+- `integration.py install`
+- `gthnk`
+- Now Gthnk is ready
+
+## Recap {.side-image}
+
+![picture of chess pieces](assets/strategy.jpg)
+
+- Installed Python
+- Used Python to install Gthnk
+- Accessed it from command line
+    + `gthnk`
+- Gthnk was opened in a browser window
+- http://install.gthnk.com
+
 # Typical Use
+
+## Keeping a Text Journal {.side-image}
+
+![picture of chess pieces](assets/strategy.jpg)
+
+- Use any reasonably-nice text editor
+    + Supported: Sublime Text
+    + Good: Microsoft VS Code
+    + Good: Emacs AND vi
+        * the madman
+    + Android: Jota+
+- Rules of the Journal format:
+    + a day token is YYYY-MM-DD
+    + an entry token is HHMM
+    + tokens have 2 linefeeds before and 2 linefeeds after
+
+## Searching {.side-image}
+
+![picture of chess pieces](assets/strategy.jpg)
+
+- Landing page provides a search box
+- Search button in the UI
+- results consists of matching entries
+- entries are sorted by date
+- clicking brings you to the original day
+
+## Journal Rotation {.side-image}
+
+![picture of chess pieces](assets/strategy.jpg)
+
+- Each day, Gthnk imports whatever is in your journal.
+    + this is how stuff gets "into your journal".
+- The UI has a "refresh" button that can also trigger rotation.
+- Your text files are cleared out at the end of rotation.
+    + NB: You need a text editor that "notices" this
+
+## Mobile Files {.side-image}
+
+![picture of chess pieces](assets/strategy.jpg)
+
+- Gthnk can import multiple journals during rotation
+
+## Daily Review {.side-image}
+
+![picture of chess pieces](assets/strategy.jpg)
+
+- 
 
 # Integration with apps and OS
 
-# Interlude
+# Philosophical Interlude
 
 ## Scholarship in 2075 {.side-image}
 
@@ -243,11 +335,27 @@ output:
 - and **Mobile Notes**
 - and image **Attachments**, generally
 
-## Thank you
+## Resources {.side-image}
 
-- gthnk
+![picture of chess pieces](assets/strategy.jpg)
+
+- Website http://www.gthnk.com
+- Documentation http://docs.gthnk.com
+- Open Source Project http://code.gthnk.com
+- Issue Tracker http://issues.gthnk.com
+- Python Project http://python.gthnk.com
+- Blog http://blog.gthnk.com
+- Chat http://chat.gthnk.com
+
+## Conclusion
+
+- next step
     + www.gthnk.com
+- this presentation
+    + https://iandennismiller.github.io/pres-gthnk-overview
+    + also available on www.gthnk.com
 - Ian Dennis Miller
+    + @iandennismiller
     + imiller.utsc.utoronto.ca
     + www.iandennismiller.com
-    + @iandennismiller
+- Thank you
