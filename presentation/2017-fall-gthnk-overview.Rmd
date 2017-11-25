@@ -193,6 +193,17 @@ output:
 - `gthnk`
 - Now Gthnk is ready
 
+## First Run {.side-image}
+
+![picture of chess pieces](assets/strategy.jpg)
+
+- The first time you launch Gthnk
+    + click "refresh"
+    + this creates `journal.txt` for you
+- Default location of `journal.txt`
+    + windows: `~/Desktop/journal.txt`
+    + os x: in `~/Library/Gthnk/journal.txt`
+
 ## Recap {.side-image}
 
 ![picture of chess pieces](assets/strategy.jpg)
@@ -202,6 +213,7 @@ output:
 - Accessed it from command line
     + `gthnk`
 - Gthnk was opened in a browser window
+- A fresh `journal.txt` file was created
 - http://install.gthnk.com
 
 # Typical Use
@@ -221,6 +233,17 @@ output:
     + an entry token is HHMM
     + tokens have 2 linefeeds before and 2 linefeeds after
 
+## Journal Rotation {.side-image}
+
+![picture of chess pieces](assets/strategy.jpg)
+
+- Each day, Gthnk imports whatever is in your journal.
+    + **this is how stuff "gets into Gthnk"**.
+- The UI has a "refresh" button that can also trigger rotation.
+- Your journal files are cleared out at the end of rotation.
+    + you start a new day with the blank file.
+    + NB: You need a text editor that "notices" this
+
 ## Searching {.side-image}
 
 ![picture of chess pieces](assets/strategy.jpg)
@@ -231,29 +254,44 @@ output:
 - entries are sorted by date
 - clicking brings you to the original day
 
-## Journal Rotation {.side-image}
-
-![picture of chess pieces](assets/strategy.jpg)
-
-- Each day, Gthnk imports whatever is in your journal.
-    + this is how stuff gets "into your journal".
-- The UI has a "refresh" button that can also trigger rotation.
-- Your text files are cleared out at the end of rotation.
-    + NB: You need a text editor that "notices" this
-
-## Mobile Files {.side-image}
-
-![picture of chess pieces](assets/strategy.jpg)
-
-- Gthnk can import multiple journals during rotation
-
 ## Daily Review {.side-image}
 
 ![picture of chess pieces](assets/strategy.jpg)
 
-- 
+- Each morning at 9am, Gthnk launches with the most recent entries.
+    + usually, this is "yesterday"
+- It's automatic.
+- reviewing the notes is a good daily practice
+
+## Demo {.side-image}
+
+![picture of chess pieces](assets/strategy.jpg)
+
+- Start a new day in journal
+- Create two entries
+- invoke journal rotation
+- search in Gthnk
+
+## Configuration {.side-image}
+
+![picture of chess pieces](assets/strategy.jpg)
+
+- Windows location of gthnk.conf
+- OS X location of gthnk.conf
 
 # Integration with apps and OS
+
+## Web browsers
+
+## Text editors
+
+## Hot keys
+
+## Mobile files {.side-image}
+
+![picture of chess pieces](assets/strategy.jpg)
+
+- Gthnk can import multiple journals during rotation
 
 # Philosophical Interlude
 
