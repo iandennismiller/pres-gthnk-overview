@@ -1,0 +1,137 @@
+---
+title: Gthnk Installation
+author: "Ian Dennis Miller"
+date: "November 26, 2017"
+output:
+    ioslides_presentation:
+        autosize: yes
+        widescreen: true
+        css: assets/styles.css
+        self_contained: false
+---
+
+## Overview {.side-image}
+
+![picture of chess pieces](assets/strategy.jpg)
+
+# Philosophical Interlude
+
+## Scholarship in 2075 {.side-image}
+
+![picture of chess pieces](assets/strategy.jpg)
+
+- visualize a library in a not-so-distant future
+- you are the academic of the future
+- who were the people living in 2017?
+    + we are living in the Digital Dark Age
+- imagine the following grim scenario
+- what if 98% of the data created between 1990 and 2030 is gone?
+    + data death
+        * irregular funding
+        * accidents
+        * Library of Alexandria event?
+    + bit rot and entropy
+    + link rot and disorganization
+- what if 98% of the websites you see today didn't exist in 2075?
+- will your Word97 macros still work!?
+
+## Percy Shelley's Ozymandias {.side-image}
+
+![picture of chess pieces](assets/strategy.jpg)
+
+- I met a traveller from an antique land
+- Who said: Two vast and trunkless legs of stone
+- Stand in the desert
+- ...
+- And on the pedestal these words appear:
+- 'My name is Ozymandias, king of kings:
+- Look on my works, ye Mighty, and despair!'
+- Nothing beside remains. Round the decay
+- Of that colossal wreck, boundless and bare
+- The lone and level sands stretch far away.
+
+## Who *are* we? {.side-image}
+
+![picture of chess pieces](assets/strategy.jpg)
+
+- What kind of culture are we creating?
+- Is our culture lasting?
+- Which parts will rot away and which parts will stay?
+- we can already see our culture disappearing
+    + Does anybody remember Geocities?
+    + Did anybody spend time on their Myspace profile?
+    + the BBC lost years-worth of early Dr. Who
+- How can we be active participants in our own history?
+
+## Nachlass {.side-image}
+
+![picture of chess pieces](assets/strategy.jpg)
+
+- from wikipedia:
+    + from German, used in academia
+    + nach: after
+    + lassen: to leave
+- papers left behind when a scholar dies
+    + manuscripts
+    + notes
+    + correspondence
+- it requires a great deal of effort to process a scholar's *Nachlass*
+- effort = resources = money
+    + which makes this unlikely
+- **unless you do it yourself**
+    + but don't forget Ozymandias
+
+# Gthnk Installation
+
+## Windows Installation Part 1/2 {.side-image}
+
+![picture of chess pieces](assets/strategy.jpg)
+
+- Goal: prepare Python
+- Install Python
+    + www.python.org/ downloads/windows
+- launch PowerShell
+- `start-process powershell –verb runAs`
+- `pip install virtualenv virtualenvwrapper virtualenvwrapper-win`
+- Now Python is ready
+
+## Windows Installation Part 2/2 {.side-image}
+
+![picture of chess pieces](assets/strategy.jpg)
+
+- Goal: Install Gthnk
+- launch `cmd.exe`
+- `mkvirtualenv gthnk`
+- `easy_install -U mr.bob==0.1.2`
+- `pip install gthnk`
+- `python %virtual_env%\ Scripts\integration.py install`
+- `gthnk`
+- Now Gthnk is ready
+
+## OS X Installation Part 1/2 {.side-image}
+
+![picture of chess pieces](assets/strategy.jpg)
+
+- Goal: prepare Python
+- launch `terminal.app`
+- become admin (e.g. `su admin`)
+- `brew install python --universal --framework`
+- `brew install pyenv-virtualenv`
+- `brew install pyenv-virtualenvwrapper`
+- `brew install sqlite`
+- `pip install --upgrade pip`
+- Now Python is ready
+
+## OS X Installation Part 2/2 {.side-image}
+
+![picture of chess pieces](assets/strategy.jpg)
+
+- Goal: Install Gthnk
+- launch `terminal.app`
+- `mkvirtualenv gthnk`
+- `pip install gthnk`
+- `integration.py install`
+- `gthnk`
+- Now Gthnk is ready
+
+

@@ -16,10 +16,9 @@ output:
 
 - Overview
 - Introduction to Gthnk
-- Installation on Windows and OS X
+- Installation
 - Typical Use as a "Work Journal"
 - Integration with apps and OS
-- Interlude
 - Conclusion
 
 # Introduction to Gthnk
@@ -129,69 +128,19 @@ output:
 
 # Installation
 
-## Python {.side-image}
+## Online Installation Guide {.side-image}
 
 ![picture of chess pieces](assets/strategy.jpg)
 
-- Gthnk "runs on" Python
-    + just like java runs applets
-    + or flash, dot-net, silverlight, whatever
-- Gthnk uses the Python installer
-- no programming is involved
-- if you happen to know Python
-    + open source
-    + participate
+- http://install.gthnk.com
+- step-by-step installation process
+- overview
+    + install Python
+    + then install Gthnk
+- Windows and OS X
+- You will be using Gthnk when complete
 
-## Windows Installation Part 1/2 {.side-image}
-
-![picture of chess pieces](assets/strategy.jpg)
-
-- Goal: prepare Python
-- Install Python
-    + www.python.org/ downloads/windows
-- launch PowerShell
-- `start-process powershell –verb runAs`
-- `pip install virtualenv virtualenvwrapper virtualenvwrapper-win`
-- Now Python is ready
-
-## Windows Installation Part 2/2 {.side-image}
-
-![picture of chess pieces](assets/strategy.jpg)
-
-- Goal: Install Gthnk
-- launch `cmd.exe`
-- `mkvirtualenv gthnk`
-- `easy_install -U mr.bob==0.1.2`
-- `pip install gthnk`
-- `python %virtual_env%\ Scripts\integration.py install`
-- `gthnk`
-- Now Gthnk is ready
-
-## OS X Installation Part 1/2 {.side-image}
-
-![picture of chess pieces](assets/strategy.jpg)
-
-- Goal: prepare Python
-- launch `terminal.app`
-- become admin (e.g. `su admin`)
-- `brew install python --universal --framework`
-- `brew install pyenv-virtualenv`
-- `brew install pyenv-virtualenvwrapper`
-- `brew install sqlite`
-- `pip install --upgrade pip`
-- Now Python is ready
-
-## OS X Installation Part 2/2 {.side-image}
-
-![picture of chess pieces](assets/strategy.jpg)
-
-- Goal: Install Gthnk
-- launch `terminal.app`
-- `mkvirtualenv gthnk`
-- `pip install gthnk`
-- `integration.py install`
-- `gthnk`
-- Now Gthnk is ready
+# Typical Use
 
 ## First Run {.side-image}
 
@@ -200,23 +149,11 @@ output:
 - The first time you launch Gthnk
     + click "refresh"
     + this creates `journal.txt` for you
-- Default location of `journal.txt`
-    + windows: `~/Desktop/journal.txt`
-    + os x: in `~/Library/Gthnk/journal.txt`
-
-## Recap {.side-image}
-
-![picture of chess pieces](assets/strategy.jpg)
-
-- Installed Python
-- Used Python to install Gthnk
-- Accessed it from command line
-    + `gthnk`
-- Gthnk was opened in a browser window
-- A fresh `journal.txt` file was created
-- http://install.gthnk.com
-
-# Typical Use
+- `journal.txt` is on your Desktop
+- now create an entry
+    + enter the date YYYY-MM-DD
+    + enter the time HHMM
+    + type the entry
 
 ## Keeping a Text Journal {.side-image}
 
@@ -226,7 +163,6 @@ output:
     + Supported: Sublime Text
     + Good: Microsoft VS Code
     + Good: Emacs AND vi
-        * the madman
     + Android: Jota+
 - Rules of the Journal format:
     + a day token is YYYY-MM-DD
@@ -239,8 +175,8 @@ output:
 
 - Each day, Gthnk imports whatever is in your journal.
     + **this is how stuff "gets into Gthnk"**.
-- The UI has a "refresh" button that can also trigger rotation.
-- Your journal files are cleared out at the end of rotation.
+- "refresh" button triggers rotation.
+- Your journal files are cleared during rotation.
     + you start a new day with the blank file.
     + NB: You need a text editor that "notices" this
 
@@ -263,101 +199,69 @@ output:
 - It's automatic.
 - reviewing the notes is a good daily practice
 
-## Demo {.side-image}
-
-![picture of chess pieces](assets/strategy.jpg)
-
-- Start a new day in journal
-- Create two entries
-- invoke journal rotation
-- search in Gthnk
-
-## Configuration {.side-image}
-
-![picture of chess pieces](assets/strategy.jpg)
-
-- Windows location of gthnk.conf
-- OS X location of gthnk.conf
-
 # Integration with apps and OS
 
-## Web browsers
+## Gthnk Integrations {.side-image}
 
-## Text editors
+![picture of chess pieces](assets/strategy.jpg)
 
-## Hot keys
+- Gthnk is always running
+- it is a web service
+- there are many clever ways to hook into Gthnk
+- integrations make Gthnk much faster
+
+## Web browsers {.side-image}
+
+![picture of chess pieces](assets/strategy.jpg)
+
+- load Gthnk with any web browser
+- add Gthnk as a search engine
+    + Gthnk is a web service
+    + search your notes from your browser
+- add Gthnk to your Desktop as an "App"
+    + works with Chrome on OS X and Windows
+
+## Text editors {.side-image}
+
+![picture of chess pieces](assets/strategy.jpg)
+
+- date and time macros
+    + bind a hot key
+    + never type these again
+- file modification detection
+    + editor auto-reloads changed files
+    + most text editors have this
+
+## Hot keys and Launchers {.side-image}
+
+![picture of chess pieces](assets/strategy.jpg)
+
+- use a key combination to launch Gthnk
+    + your notes are a keystroke away
+- aunchers
+    + OS X: Spark.app
+    + Windows: AutoHotkey
+    + others
 
 ## Mobile files {.side-image}
 
 ![picture of chess pieces](assets/strategy.jpg)
 
 - Gthnk can import multiple journals during rotation
+    + edit the configuration
+- Pattern for mobile:
+    + Dropbox/journal-phone.txt
+    + Dropbox/journal-tablet.txt
+- Now edit those files on the road
+- Gthnk rotates them
 
-# Philosophical Interlude
-
-## Scholarship in 2075 {.side-image}
-
-![picture of chess pieces](assets/strategy.jpg)
-
-- visualize a library in a not-so-distant future
-- you are the academic of the future
-- who were the people living in 2017?
-- imagine the following grim scenario
-- what if 98% of the data created between 1990 and 2030 is gone?
-    + data death
-        * irregular funding
-        * accidents
-        * Library of Alexandria event?
-    + bit rot and entropy
-    + link rot and disorganization
-- what if 98% of the websites you see today didn't exist in 2075?
-- will your Word97 macros still work!?
-
-## Percy Shelley's Ozymandias {.side-image}
+## Summary {.side-image}
 
 ![picture of chess pieces](assets/strategy.jpg)
 
-- I met a traveller from an antique land
-- Who said: Two vast and trunkless legs of stone
-- Stand in the desert
-- ...
-- And on the pedestal these words appear:
-- 'My name is Ozymandias, king of kings:
-- Look on my works, ye Mighty, and despair!'
-- Nothing beside remains. Round the decay
-- Of that colossal wreck, boundless and bare
-- The lone and level sands stretch far away.
-
-## Who are we? {.side-image}
-
-![picture of chess pieces](assets/strategy.jpg)
-
-- What kind of culture are we creating?
-- Is our culture lasting?
-- Which parts will rot away and which parts will stay?
-- we can already see our culture disappearing
-    + Does anybody remember Geocities?
-    + Did anybody spend time on their Myspace profile?
-    + the BBC lost years-worth of early Dr. Who
-- How can we be active participants in our own history?
-
-## Nachlass {.side-image}
-
-![picture of chess pieces](assets/strategy.jpg)
-
-- from wikipedia:
-    + from German, used in academia
-    + nach: after
-    + lassen: to leave
-- papers left behind when a scholar dies
-    + manuscripts
-    + notes
-    + correspondence
-- it requires a great deal of effort to process a scholar's *Nachlass*
-- effort = resources = money
-    + which makes this unlikely
-- **unless you do it yourself**
-    + but don't forget Ozymandias
+- Gthnk provides lots of ways to integrate
+- opportunities to mesh with life
+- work must faster
 
 # Conclusion
 
@@ -385,15 +289,13 @@ output:
 - Blog http://blog.gthnk.com
 - Chat http://chat.gthnk.com
 
-## Conclusion
+## Conclusion {.side-image}
+
+![picture of chess pieces](assets/strategy.jpg)
 
 - next step
-    + www.gthnk.com
-- this presentation
-    + https://iandennismiller.github.io/pres-gthnk-overview
-    + also available on www.gthnk.com
+    + http://install.gthnk.com
 - Ian Dennis Miller
     + @iandennismiller
-    + imiller.utsc.utoronto.ca
-    + www.iandennismiller.com
+- this presentation is online at http://overview.gthnk.com
 - Thank you

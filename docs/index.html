@@ -106,10 +106,9 @@
 <ul>
 <li>Overview</li>
 <li>Introduction to Gthnk</li>
-<li>Installation on Windows and OS X</li>
+<li>Installation</li>
 <li>Typical Use as a &ldquo;Work Journal&rdquo;</li>
 <li>Integration with apps and OS</li>
-<li>Interlude</li>
 <li>Conclusion</li>
 </ul>
 
@@ -247,106 +246,45 @@
 
 </article></slide><slide class="segue dark nobackground level1"><hgroup class = 'auto-fadein'><h2>Installation</h2></hgroup><article  id="installation">
 
-</article></slide><slide class=""><hgroup><h2>Python</h2></hgroup><article  class="side-image" id="python">
+</article></slide><slide class=""><hgroup><h2>Online Installation Guide</h2></hgroup><article  class="side-image" id="online-installation-guide">
 
 <img src='assets/strategy.jpg' title='fig:'/><p class='caption'>picture of chess pieces</p>
 
 <ul>
-<li>Gthnk &ldquo;runs on&rdquo; Python
-
-<ul>
-<li>just like java runs applets</li>
-<li>or flash, dot-net, silverlight, whatever</li>
-</ul></li>
-<li>Gthnk uses the Python installer</li>
-<li>no programming is involved</li>
-<li>if you happen to know Python
-
-<ul>
-<li>open source</li>
-<li>participate</li>
-</ul></li>
-</ul>
-
-</article></slide><slide class=""><hgroup><h2>Windows Installation Part 1/2</h2></hgroup><article  class="side-image" id="windows-installation-part-12">
-
-<img src='assets/strategy.jpg' title='fig:'/><p class='caption'>picture of chess pieces</p>
-
-<ul>
-<li>Goal: prepare Python</li>
-<li>Install Python
-
-<ul>
-<li>www.python.org/ downloads/windows</li>
-</ul></li>
-<li>launch PowerShell</li>
-<li><code>start-process powershell –verb runAs</code></li>
-<li><code>pip install virtualenv virtualenvwrapper virtualenvwrapper-win</code></li>
-<li>Now Python is ready</li>
-</ul>
-
-</article></slide><slide class=""><hgroup><h2>Windows Installation Part 2/2</h2></hgroup><article  class="side-image" id="windows-installation-part-22">
-
-<img src='assets/strategy.jpg' title='fig:'/><p class='caption'>picture of chess pieces</p>
-
-<ul>
-<li>Goal: Install Gthnk</li>
-<li>launch <code>cmd.exe</code></li>
-<li><code>mkvirtualenv gthnk</code></li>
-<li><code>easy_install -U mr.bob==0.1.2</code></li>
-<li><code>pip install gthnk</code></li>
-<li><code>python %virtual_env%\ Scripts\integration.py install</code></li>
-<li><code>gthnk</code></li>
-<li>Now Gthnk is ready</li>
-</ul>
-
-</article></slide><slide class=""><hgroup><h2>OS X Installation Part 1/2</h2></hgroup><article  class="side-image" id="os-x-installation-part-12">
-
-<img src='assets/strategy.jpg' title='fig:'/><p class='caption'>picture of chess pieces</p>
-
-<ul>
-<li>Goal: prepare Python</li>
-<li>launch <code>terminal.app</code></li>
-<li>become admin (e.g. <code>su admin</code>)</li>
-<li><code>brew install python --universal --framework</code></li>
-<li><code>brew install pyenv-virtualenv</code></li>
-<li><code>brew install pyenv-virtualenvwrapper</code></li>
-<li><code>brew install sqlite</code></li>
-<li><code>pip install --upgrade pip</code></li>
-<li>Now Python is ready</li>
-</ul>
-
-</article></slide><slide class=""><hgroup><h2>OS X Installation Part 2/2</h2></hgroup><article  class="side-image" id="os-x-installation-part-22">
-
-<img src='assets/strategy.jpg' title='fig:'/><p class='caption'>picture of chess pieces</p>
-
-<ul>
-<li>Goal: Install Gthnk</li>
-<li>launch <code>terminal.app</code></li>
-<li><code>mkvirtualenv gthnk</code></li>
-<li><code>pip install gthnk</code></li>
-<li><code>integration.py install</code></li>
-<li><code>gthnk</code></li>
-<li>Now Gthnk is ready</li>
-</ul>
-
-</article></slide><slide class=""><hgroup><h2>Recap</h2></hgroup><article  class="side-image" id="recap">
-
-<img src='assets/strategy.jpg' title='fig:'/><p class='caption'>picture of chess pieces</p>
-
-<ul>
-<li>Installed Python</li>
-<li>Used Python to install Gthnk</li>
-<li>Accessed it from command line
-
-<ul>
-<li><code>gthnk</code></li>
-</ul></li>
-<li>Gthnk was opened in a browser window</li>
 <li><a href='http://install.gthnk.com' title=''>http://install.gthnk.com</a></li>
+<li>step-by-step installation process</li>
+<li>overview
+
+<ul>
+<li>install Python</li>
+<li>then install Gthnk</li>
+</ul></li>
+<li>Windows and OS X</li>
+<li>You will be using Gthnk when complete</li>
 </ul>
 
 </article></slide><slide class="segue dark nobackground level1"><hgroup class = 'auto-fadein'><h2>Typical Use</h2></hgroup><article  id="typical-use">
+
+</article></slide><slide class=""><hgroup><h2>First Run</h2></hgroup><article  class="side-image" id="first-run">
+
+<img src='assets/strategy.jpg' title='fig:'/><p class='caption'>picture of chess pieces</p>
+
+<ul>
+<li>The first time you launch Gthnk
+
+<ul>
+<li>click &ldquo;refresh&rdquo;</li>
+<li>this creates <code>journal.txt</code> for you</li>
+</ul></li>
+<li><code>journal.txt</code> is on your Desktop</li>
+<li>now create an entry
+
+<ul>
+<li>enter the date YYYY-MM-DD</li>
+<li>enter the time HHMM</li>
+<li>type the entry</li>
+</ul></li>
+</ul>
 
 </article></slide><slide class=""><hgroup><h2>Keeping a Text Journal</h2></hgroup><article  class="side-image" id="keeping-a-text-journal">
 
@@ -358,11 +296,7 @@
 <ul>
 <li>Supported: Sublime Text</li>
 <li>Good: Microsoft VS Code</li>
-<li>Good: Emacs AND vi
-
-<ul>
-<li>the madman</li>
-</ul></li>
+<li>Good: Emacs AND vi</li>
 <li>Android: Jota+</li>
 </ul></li>
 <li>Rules of the Journal format:
@@ -371,6 +305,25 @@
 <li>a day token is YYYY-MM-DD</li>
 <li>an entry token is HHMM</li>
 <li>tokens have 2 linefeeds before and 2 linefeeds after</li>
+</ul></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Journal Rotation</h2></hgroup><article  class="side-image" id="journal-rotation">
+
+<img src='assets/strategy.jpg' title='fig:'/><p class='caption'>picture of chess pieces</p>
+
+<ul>
+<li>Each day, Gthnk imports whatever is in your journal.
+
+<ul>
+<li><strong>this is how stuff &ldquo;gets into Gthnk&rdquo;</strong>.</li>
+</ul></li>
+<li>&ldquo;refresh&rdquo; button triggers rotation.</li>
+<li>Your journal files are cleared during rotation.
+
+<ul>
+<li>you start a new day with the blank file.</li>
+<li>NB: You need a text editor that &ldquo;notices&rdquo; this</li>
 </ul></li>
 </ul>
 
@@ -386,135 +339,118 @@
 <li>clicking brings you to the original day</li>
 </ul>
 
-</article></slide><slide class=""><hgroup><h2>Journal Rotation</h2></hgroup><article  class="side-image" id="journal-rotation">
-
-<img src='assets/strategy.jpg' title='fig:'/><p class='caption'>picture of chess pieces</p>
-
-<ul>
-<li>Each day, Gthnk imports whatever is in your journal.
-
-<ul>
-<li>this is how stuff gets &ldquo;into your journal&rdquo;.</li>
-</ul></li>
-<li>The UI has a &ldquo;refresh&rdquo; button that can also trigger rotation.</li>
-<li>Your text files are cleared out at the end of rotation.
-
-<ul>
-<li>NB: You need a text editor that &ldquo;notices&rdquo; this</li>
-</ul></li>
-</ul>
-
-</article></slide><slide class=""><hgroup><h2>Mobile Files</h2></hgroup><article  class="side-image" id="mobile-files">
-
-<img src='assets/strategy.jpg' title='fig:'/><p class='caption'>picture of chess pieces</p>
-
-<ul>
-<li>Gthnk can import multiple journals during rotation</li>
-</ul>
-
 </article></slide><slide class=""><hgroup><h2>Daily Review</h2></hgroup><article  class="side-image" id="daily-review">
 
 <img src='assets/strategy.jpg' title='fig:'/><p class='caption'>picture of chess pieces</p>
 
 <ul>
-<li></li>
+<li>Each morning at 9am, Gthnk launches with the most recent entries.
+
+<ul>
+<li>usually, this is &ldquo;yesterday&rdquo;</li>
+</ul></li>
+<li>It’s automatic.</li>
+<li>reviewing the notes is a good daily practice</li>
 </ul>
 
 </article></slide><slide class="segue dark nobackground level1"><hgroup class = 'auto-fadein'><h2>Integration with apps and OS</h2></hgroup><article  id="integration-with-apps-and-os">
 
-</article></slide><slide class="segue dark nobackground level1"><hgroup class = 'auto-fadein'><h2>Philosophical Interlude</h2></hgroup><article  id="philosophical-interlude">
-
-</article></slide><slide class=""><hgroup><h2>Scholarship in 2075</h2></hgroup><article  class="side-image" id="scholarship-in-2075">
+</article></slide><slide class=""><hgroup><h2>Gthnk Integrations</h2></hgroup><article  class="side-image" id="gthnk-integrations">
 
 <img src='assets/strategy.jpg' title='fig:'/><p class='caption'>picture of chess pieces</p>
 
 <ul>
-<li>visualize a library in a not-so-distant future</li>
-<li>you are the academic of the future</li>
-<li>who were the people living in 2017?</li>
-<li>imagine the following grim scenario</li>
-<li>what if 98% of the data created between 1990 and 2030 is gone?
-
-<ul>
-<li>data death
-
-<ul>
-<li>irregular funding</li>
-<li>accidents</li>
-<li>Library of Alexandria event?</li>
-</ul></li>
-<li>bit rot and entropy</li>
-<li>link rot and disorganization</li>
-</ul></li>
-<li>what if 98% of the websites you see today didn’t exist in 2075?</li>
-<li>will your Word97 macros still work!?</li>
+<li>Gthnk is always running</li>
+<li>it is a web service</li>
+<li>there are many clever ways to hook into Gthnk</li>
+<li>integrations make Gthnk much faster</li>
 </ul>
 
-</article></slide><slide class=""><hgroup><h2>Percy Shelley’s Ozymandias</h2></hgroup><article  class="side-image" id="percy-shelleys-ozymandias">
+</article></slide><slide class=""><hgroup><h2>Web browsers</h2></hgroup><article  class="side-image" id="web-browsers">
 
 <img src='assets/strategy.jpg' title='fig:'/><p class='caption'>picture of chess pieces</p>
 
 <ul>
-<li>I met a traveller from an antique land</li>
-<li>Who said: Two vast and trunkless legs of stone</li>
-<li>Stand in the desert</li>
-<li>…</li>
-<li>And on the pedestal these words appear:</li>
-<li>’My name is Ozymandias, king of kings:</li>
-<li>Look on my works, ye Mighty, and despair!’</li>
-<li>Nothing beside remains. Round the decay</li>
-<li>Of that colossal wreck, boundless and bare</li>
-<li>The lone and level sands stretch far away.</li>
+<li>load Gthnk with any web browser</li>
+<li>add Gthnk as a search engine
+
+<ul>
+<li>Gthnk is a web service</li>
+<li>search your notes from your browser</li>
+</ul></li>
+<li>add Gthnk to your Desktop as an &ldquo;App&rdquo;
+
+<ul>
+<li>works with Chrome on OS X and Windows</li>
+</ul></li>
 </ul>
 
-</article></slide><slide class=""><hgroup><h2>Who are we?</h2></hgroup><article  class="side-image" id="who-are-we">
+</article></slide><slide class=""><hgroup><h2>Text editors</h2></hgroup><article  class="side-image" id="text-editors">
 
 <img src='assets/strategy.jpg' title='fig:'/><p class='caption'>picture of chess pieces</p>
 
 <ul>
-<li>What kind of culture are we creating?</li>
-<li>Is our culture lasting?</li>
-<li>Which parts will rot away and which parts will stay?</li>
-<li>we can already see our culture disappearing
+<li>date and time macros
 
 <ul>
-<li>Does anybody remember Geocities?</li>
-<li>Did anybody spend time on their Myspace profile?</li>
-<li>the BBC lost years-worth of early Dr. Who</li>
+<li>bind a hot key</li>
+<li>never type these again</li>
 </ul></li>
-<li>How can we be active participants in our own history?</li>
+<li>file modification detection
+
+<ul>
+<li>editor auto-reloads changed files</li>
+<li>most text editors have this</li>
+</ul></li>
 </ul>
 
-</article></slide><slide class=""><hgroup><h2>Nachlass</h2></hgroup><article  class="side-image" id="nachlass">
+</article></slide><slide class=""><hgroup><h2>Hot keys and Launchers</h2></hgroup><article  class="side-image" id="hot-keys-and-launchers">
 
 <img src='assets/strategy.jpg' title='fig:'/><p class='caption'>picture of chess pieces</p>
 
 <ul>
-<li>from wikipedia:
+<li>use a key combination to launch Gthnk
 
 <ul>
-<li>from German, used in academia</li>
-<li>nach: after</li>
-<li>lassen: to leave</li>
+<li>your notes are a keystroke away</li>
 </ul></li>
-<li>papers left behind when a scholar dies
+<li>aunchers
 
 <ul>
-<li>manuscripts</li>
-<li>notes</li>
-<li>correspondence</li>
+<li>OS X: Spark.app</li>
+<li>Windows: AutoHotkey</li>
+<li>others</li>
 </ul></li>
-<li>it requires a great deal of effort to process a scholar’s <em>Nachlass</em></li>
-<li>effort = resources = money
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Mobile files</h2></hgroup><article  class="side-image" id="mobile-files">
+
+<img src='assets/strategy.jpg' title='fig:'/><p class='caption'>picture of chess pieces</p>
 
 <ul>
-<li>which makes this unlikely</li>
-</ul></li>
-<li><strong>unless you do it yourself</strong>
+<li>Gthnk can import multiple journals during rotation
 
 <ul>
-<li>but don’t forget Ozymandias</li>
+<li>edit the configuration</li>
 </ul></li>
+<li>Pattern for mobile:
+
+<ul>
+<li>Dropbox/journal-phone.txt</li>
+<li>Dropbox/journal-tablet.txt</li>
+</ul></li>
+<li>Now edit those files on the road</li>
+<li>Gthnk rotates them</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Summary</h2></hgroup><article  class="side-image" id="summary">
+
+<img src='assets/strategy.jpg' title='fig:'/><p class='caption'>picture of chess pieces</p>
+
+<ul>
+<li>Gthnk provides lots of ways to integrate</li>
+<li>opportunities to mesh with life</li>
+<li>work must faster</li>
 </ul>
 
 </article></slide><slide class="segue dark nobackground level1"><hgroup class = 'auto-fadein'><h2>Conclusion</h2></hgroup><article  id="conclusion">
@@ -547,27 +483,22 @@
 <li>Chat <a href='http://chat.gthnk.com' title=''>http://chat.gthnk.com</a></li>
 </ul>
 
-</article></slide><slide class=""><hgroup><h2>Conclusion</h2></hgroup><article  id="conclusion-1">
+</article></slide><slide class=""><hgroup><h2>Conclusion</h2></hgroup><article  class="side-image" id="conclusion-1">
+
+<img src='assets/strategy.jpg' title='fig:'/><p class='caption'>picture of chess pieces</p>
 
 <ul>
 <li>next step
 
 <ul>
-<li>www.gthnk.com</li>
-</ul></li>
-<li>this presentation
-
-<ul>
-<li><a href='https://iandennismiller.github.io/pres-gthnk-overview' title=''>https://iandennismiller.github.io/pres-gthnk-overview</a></li>
-<li>also available on www.gthnk.com</li>
+<li><a href='http://install.gthnk.com' title=''>http://install.gthnk.com</a></li>
 </ul></li>
 <li>Ian Dennis Miller
 
 <ul>
 <li><span class="cite">@iandennismiller</span></li>
-<li>imiller.utsc.utoronto.ca</li>
-<li>www.iandennismiller.com</li>
 </ul></li>
+<li>this presentation is online at <a href='http://overview.gthnk.com' title=''>http://overview.gthnk.com</a></li>
 <li>Thank you</li>
 </ul></article></slide>
 
