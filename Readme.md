@@ -20,6 +20,18 @@ https://iandennismiller.github.io/pres-gthnk-overview
 - [Mobile Phone](https://commons.wikimedia.org/wiki/File:Bus_Time_Manhattan_Launch_(10142555034).jpg)
 - [Red Stapler](https://commons.wikimedia.org/wiki/File:Stapler-swingline-red.jpg)
 - [Ballads of the Bench and Bar](https://commons.wikimedia.org/wiki/File:Image_taken_from_page_54_of_%27Ballads_of_the_Bench_and_Bar;_or,_Idle_Lays_of_the_Parliament_House._(Edited_by_J._B._Paul_and_J._J._Reid.)%27_(11280025073).jpg)
+- [Installer](https://commons.wikimedia.org/wiki/File:InstallJammer-small.png)
+- [Green Light](https://commons.wikimedia.org/wiki/File:2010-12-30_Italy_Milan_trafficlight_green.JPG)
+- [Bound Book](https://commons.wikimedia.org/wiki/File:Old_book_bindings.jpg)
+- [Rotation](https://commons.wikimedia.org/wiki/File:ROTATION.jpg)
+- [Radio Telescope](https://commons.wikimedia.org/wiki/File:Howard_E._Tatel_Radio_Telescope_-_front.jpg)
+- [Mirror Array](https://commons.wikimedia.org/wiki/File:Aleph-reorganizing-vision.jpg)
+- [Gears](https://commons.wikimedia.org/wiki/File:New_England_Fall_Color_Tour_Oct._2012_187.JPG)
+- [Web](https://commons.wikimedia.org/wiki/File:Dew_on_spider_web_Luc_Viatour.jpg)
+- [Leafpad](https://commons.wikimedia.org/wiki/File:Leafpad.png)
+- [Shuttle Launch](https://commons.wikimedia.org/wiki/File:Space_Shuttle_Columbia_launching.jpg)
+- [Cloud Computing](https://commons.wikimedia.org/wiki/File:Cloud_computing_icon.svg)
+- [Landscape Laugavegur](https://commons.wikimedia.org/wiki/File:Landscape_during_Laugavegur_hiking_trail_2-CA_reduced.jpg)
 
 ## Requirements
 

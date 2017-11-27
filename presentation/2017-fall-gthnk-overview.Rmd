@@ -116,7 +116,7 @@ output:
 
 ## Introducing Gthnk {.side-image}
 
-![picture of chess pieces](assets/ballads-bench-and-bar.jpg)
+![Ballads of the Bench and Bar](assets/ballads-bench-and-bar.jpg)
 
 - a personal **Journal**
 - supports long-term **Archival**
@@ -130,7 +130,7 @@ output:
 
 ## Online Installation Guide {.side-image}
 
-![picture of chess pieces](assets/strategy.jpg)
+![Classic "installer" icon](assets/installer.png)
 
 - http://install.gthnk.com
 - step-by-step installation process
@@ -144,7 +144,7 @@ output:
 
 ## First Run {.side-image}
 
-![picture of chess pieces](assets/strategy.jpg)
+![Green Light in Milan](assets/green-light.jpg)
 
 - The first time you launch Gthnk
     + click "refresh"
@@ -157,7 +157,7 @@ output:
 
 ## Keeping a Text Journal {.side-image}
 
-![picture of chess pieces](assets/strategy.jpg)
+![Old Books at Merton College](assets/bound-books.png)
 
 - Use any reasonably-nice text editor
     + Supported: Sublime Text
@@ -171,7 +171,7 @@ output:
 
 ## Journal Rotation {.side-image}
 
-![picture of chess pieces](assets/strategy.jpg)
+![Ansgar Nierhoff: Rotation (2003)](assets/rotation.jpg)
 
 - Each day, Gthnk imports whatever is in your journal.
     + **this is how stuff "gets into Gthnk"**.
@@ -182,7 +182,7 @@ output:
 
 ## Searching {.side-image}
 
-![picture of chess pieces](assets/strategy.jpg)
+![Howard E. Tatel Radio Telescope](assets/radio-telescope.png)
 
 - Landing page provides a search box
 - Search button in the UI
@@ -192,7 +192,7 @@ output:
 
 ## Daily Review {.side-image}
 
-![picture of chess pieces](assets/strategy.jpg)
+![Aleph by Sjölén and Somlai-Fischer](assets/mirror-array.png)
 
 - Each morning at 9am, Gthnk launches with the most recent entries.
     + usually, this is "yesterday"
@@ -203,7 +203,7 @@ output:
 
 ## Gthnk Integrations {.side-image}
 
-![picture of chess pieces](assets/strategy.jpg)
+![Mount Washington Cog Railway](assets/gears.png)
 
 - Gthnk is always running
 - it is a web service
@@ -212,7 +212,7 @@ output:
 
 ## Web browsers {.side-image}
 
-![picture of chess pieces](assets/strategy.jpg)
+![Dew on Spider Web](assets/web.png)
 
 - load Gthnk with any web browser
 - add Gthnk as a search engine
@@ -223,7 +223,7 @@ output:
 
 ## Text editors {.side-image}
 
-![picture of chess pieces](assets/strategy.jpg)
+![Icon for Leafpad](assets/text-editor.png)
 
 - date and time macros
     + bind a hot key
@@ -234,7 +234,7 @@ output:
 
 ## Hot keys and Launchers {.side-image}
 
-![picture of chess pieces](assets/strategy.jpg)
+![Shuttle Columbia Launches](assets/shuttle-launch.png)
 
 - use a key combination to launch Gthnk
     + your notes are a keystroke away
@@ -245,7 +245,7 @@ output:
 
 ## Mobile files {.side-image}
 
-![picture of chess pieces](assets/strategy.jpg)
+![Cloud Computing Icon](assets/cloud-computing.png)
 
 - Gthnk can import multiple journals during rotation
     + edit the configuration
@@ -257,7 +257,7 @@ output:
 
 ## Summary {.side-image}
 
-![picture of chess pieces](assets/strategy.jpg)
+![Landscape near Laugavegur, Iceland](assets/landscape-laugavegur.png)
 
 - Gthnk provides lots of ways to integrate
 - opportunities to mesh with life
@@ -267,7 +267,7 @@ output:
 
 ## Gthnk {.side-image}
 
-![picture of chess pieces](assets/strategy.jpg)
+![Ballads of the Bench and Bar](assets/ballads-bench-and-bar.jpg)
 
 - a personal **Journal**
 - supports long-term **Archival**
@@ -277,25 +277,49 @@ output:
 - and **Mobile Notes**
 - and image **Attachments**, generally
 
-## Resources {.side-image}
+## Online Resources
 
-![picture of chess pieces](assets/strategy.jpg)
+- http://www.gthnk.com Website
+- http://docs.gthnk.com Documentation
+- http://code.gthnk.com Open Source Project
+- http://issues.gthnk.com Issue Tracker
+- http://python.gthnk.com Python Project
+- http://blog.gthnk.com Blog
+- http://chat.gthnk.com Chat
 
-- Website http://www.gthnk.com
-- Documentation http://docs.gthnk.com
-- Open Source Project http://code.gthnk.com
-- Issue Tracker http://issues.gthnk.com
-- Python Project http://python.gthnk.com
-- Blog http://blog.gthnk.com
-- Chat http://chat.gthnk.com
+## Images in this Presentation {.columns-2 .smaller}
 
-## Conclusion {.side-image}
+- [Strategy](https://en.wikipedia.org/wiki/File:Strategy.jpg)
+- [Light House](https://commons.wikimedia.org/wiki/File:La_Martre_lighthouse_-_La_Martre,_QC,_CA_-_16-06-2013.jpg)
+- [Log Book](https://commons.wikimedia.org/wiki/Category:Logbooks#/media/File:HMS_Beagle_log_book.JPG)
+- [Basilica](https://commons.wikimedia.org/wiki/File:(La_Bas%C3%ADlica_del_Voto_Nacional,_Quito)_pic._u.JPG)
+- [Writing Desk](https://commons.wikimedia.org/wiki/File:Medieval_writing_desk.jpg)
+- [Desktop Computer](https://commons.wikimedia.org/wiki/File:PowerMac_g3_233.jpg)
+- [Library Stacks](https://commons.wikimedia.org/wiki/File:CityHallTorontoPublicLibrary.JPG)
+- [Freud Handwriting](https://commons.wikimedia.org/wiki/File:Freud-Handwriting.jpg)
+- [Mobile Phone](https://commons.wikimedia.org/wiki/File:Bus_Time_Manhattan_Launch_(10142555034).jpg)
+- [Red Stapler](https://commons.wikimedia.org/wiki/File:Stapler-swingline-red.jpg)
+- [Ballads of the Bench and Bar](https://commons.wikimedia.org/wiki/File:Image_taken_from_page_54_of_%27Ballads_of_the_Bench_and_Bar;_or,_Idle_Lays_of_the_Parliament_House._(Edited_by_J._B._Paul_and_J._J._Reid.)%27_(11280025073).jpg)
+- [Installer](https://commons.wikimedia.org/wiki/File:InstallJammer-small.png)
 
-![picture of chess pieces](assets/strategy.jpg)
+This presentation is online at http://overview.gthnk.com
 
-- next step
-    + http://install.gthnk.com
+- [Green Light](https://commons.wikimedia.org/wiki/File:2010-12-30_Italy_Milan_trafficlight_green.JPG)
+- [Bound Book](https://commons.wikimedia.org/wiki/File:Old_book_bindings.jpg)
+- [Rotation](https://commons.wikimedia.org/wiki/File:ROTATION.jpg)
+- [Radio Telescope](https://commons.wikimedia.org/wiki/File:Howard_E._Tatel_Radio_Telescope_-_front.jpg)
+- [Mirror Array](https://commons.wikimedia.org/wiki/File:Aleph-reorganizing-vision.jpg)
+- [Gears](https://commons.wikimedia.org/wiki/File:New_England_Fall_Color_Tour_Oct._2012_187.JPG)
+- [Web](https://commons.wikimedia.org/wiki/File:Dew_on_spider_web_Luc_Viatour.jpg)
+- [Leafpad](https://commons.wikimedia.org/wiki/File:Leafpad.png)
+- [Shuttle Launch](https://commons.wikimedia.org/wiki/File:Space_Shuttle_Columbia_launching.jpg)
+- [Cloud Computing](https://commons.wikimedia.org/wiki/File:Cloud_computing_icon.svg)
+- [Landscape Laugavegur](https://commons.wikimedia.org/wiki/File:Landscape_during_Laugavegur_hiking_trail_2-CA_reduced.jpg)
+
+## Thank You {.side-image}
+
+![Ballads of the Bench and Bar](assets/ballads-bench-and-bar.jpg)
+
+- next step: [install.gthnk.com](http://install.gthnk.com)
 - Ian Dennis Miller
-    + @iandennismiller
-- this presentation is online at http://overview.gthnk.com
-- Thank you
+- **@iandennismiller**
