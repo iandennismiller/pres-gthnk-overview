@@ -12,7 +12,7 @@ output:
 
 ## Overview {.side-image}
 
-![picture of chess pieces](assets/strategy.jpg)
+![La Martre lighthouse, QC](assets/light-house.png)
 
 - Overview
 - Introduction to Gthnk
@@ -25,7 +25,7 @@ output:
 
 ## Journal {.side-image}
 
-![picture of chess pieces](assets/strategy.jpg)
+![Log of H.M.S. Beagle](assets/log-book.png)
 
 - Logbook
 - Lab Notebook
@@ -36,7 +36,7 @@ output:
 
 ## Chronology {.side-image}
 
-![picture of chess pieces](assets/strategy.jpg)
+![La Basílica del Voto Nacional](assets/basilica.jpg)
 
 - time: a line that goes "forward"
 - entries are organized by day
@@ -46,7 +46,7 @@ output:
 
 ## What *is* Gthnk? {.side-image}
 
-![picture of chess pieces](assets/strategy.jpg)
+![Medieval writing desk](assets/writing-desk.jpg)
 
 - Gthnk is a database
 - always running on your computer
@@ -58,7 +58,7 @@ output:
 
 ## Related Software {.side-image}
 
-![picture of chess pieces](assets/strategy.jpg)
+![PowerMac G3](assets/desktop-computer.jpg)
 
 - Microsoft OneNote
 - Evernote
@@ -69,7 +69,7 @@ output:
 
 ## Archival {.side-image}
 
-![picture of chess pieces](assets/strategy.jpg)
+![City Hall Toronto Public Library](assets/library-stacks.png)
 
 - how much has Word .doc changed in 20 years?
 - is there a future in digital formats?
@@ -80,7 +80,7 @@ output:
 
 ## Handwritten Notes {.side-image}
 
-![picture of chess pieces](assets/strategy.jpg)
+![Freud's Handwritten Notes](assets/freud-handwriting.jpg)
 
 - not all notes are suited to text files
 - visual: drawings, schematics, diagrams, charts, graphs
@@ -92,7 +92,7 @@ output:
 
 ## Mobile Notes {.side-image}
 
-![picture of chess pieces](assets/strategy.jpg)
+![mobile phone in the wild](assets/mobile-phone.jpg)
 
 - mobile is so convenient; always with you
 - is the cloud secure? are your notes private?
@@ -105,7 +105,7 @@ output:
 
 ## Attachments {.side-image}
 
-![picture of chess pieces](assets/strategy.jpg)
+![That's my stapler.](assets/red-stapler.jpg)
 
 - Attach digital media to a Day in Gthnk
     + PDFs, including handwritten notes
@@ -116,7 +116,7 @@ output:
 
 ## Introducing Gthnk {.side-image}
 
-![picture of chess pieces](assets/strategy.jpg)
+![picture of chess pieces](assets/ballads-bench-and-bar.jpg)
 
 - a personal **Journal**
 - supports long-term **Archival**

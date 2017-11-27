@@ -34,4 +34,10 @@ release: clean presentation
 serve:
 	cd docs && python -m SimpleHTTPServer
 
+depends:
+	pip install watchdog
+
+watch:
+	watchmedo shell-command -R -p "*.Rmd" -c 'date; make all' .
+
 .PHONY: presentation release open clean serve
