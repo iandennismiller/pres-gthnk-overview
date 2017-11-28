@@ -1,7 +1,7 @@
 ---
 title: Gthnk Overview
 author: "Ian Dennis Miller"
-date: "November 22, 2017"
+date: "November 27, 2017"
 output:
     ioslides_presentation:
         autosize: yes
@@ -142,19 +142,6 @@ output:
 
 # Typical Use
 
-## First Run {.side-image}
-
-![Green Light in Milan](assets/green-light.jpg)
-
-- The first time you launch Gthnk
-    + click "refresh"
-    + this creates `journal.txt` for you
-- `journal.txt` is on your Desktop
-- now create an entry
-    + enter the date YYYY-MM-DD
-    + enter the time HHMM
-    + type the entry
-
 ## Keeping a Text Journal {.side-image}
 
 ![Old Books at Merton College](assets/bound-books.png)
@@ -238,7 +225,7 @@ output:
 
 - use a key combination to launch Gthnk
     + your notes are a keystroke away
-- aunchers
+- Launchers
     + OS X: Spark.app
     + Windows: AutoHotkey
     + others
@@ -261,7 +248,7 @@ output:
 
 - Gthnk provides lots of ways to integrate
 - opportunities to mesh with life
-- work must faster
+- work faster
 
 # Conclusion
 
